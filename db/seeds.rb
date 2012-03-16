@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+r = Role.create([{descripcion: 'Analista'}, {descripcion: 'Programador'}])
+Usuario.create(nombre: 'Erick', apepaterno: 'Ore', apematerno: 'Alvarado', email: 'erickore@gmail.com', fecnacimiento: Date.new(1984,10,28), rols: r)
